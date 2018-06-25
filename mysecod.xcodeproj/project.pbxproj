@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394392F320E0F29900F5E4A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 394392F220E0F29900F5E4A1 /* AppDelegate.m */; };
+		394392F620E0F29900F5E4A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394392F520E0F29900F5E4A1 /* ViewController.m */; };
+		394392F920E0F29900F5E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394392F720E0F29900F5E4A1 /* Main.storyboard */; };
+		394392FB20E0F29A00F5E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394392FA20E0F29A00F5E4A1 /* Assets.xcassets */; };
+		394392FE20E0F29A00F5E4A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394392FC20E0F29A00F5E4A1 /* LaunchScreen.storyboard */; };
+		3943930120E0F29A00F5E4A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3943930020E0F29A00F5E4A1 /* main.m */; };
+		3943930B20E0F29A00F5E4A1 /* mysecodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3943930A20E0F29A00F5E4A1 /* mysecodTests.m */; };
+		3943931620E0F29A00F5E4A1 /* mysecodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3943931520E0F29A00F5E4A1 /* mysecodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3943930720E0F29A00F5E4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394392E620E0F29800F5E4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394392ED20E0F29900F5E4A1;
+			remoteInfo = mysecod;
+		};
+		3943931220E0F29A00F5E4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394392E620E0F29800F5E4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394392ED20E0F29900F5E4A1;
+			remoteInfo = mysecod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394392EE20E0F29900F5E4A1 /* mysecod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysecod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394392F120E0F29900F5E4A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		394392F220E0F29900F5E4A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		394392F420E0F29900F5E4A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		394392F520E0F29900F5E4A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		394392F820E0F29900F5E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		394392FA20E0F29A00F5E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394392FD20E0F29A00F5E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394392FF20E0F29A00F5E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3943930020E0F29A00F5E4A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3943930620E0F29A00F5E4A1 /* mysecodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysecodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3943930A20E0F29A00F5E4A1 /* mysecodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mysecodTests.m; sourceTree = "<group>"; };
+		3943930C20E0F29A00F5E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3943931120E0F29A00F5E4A1 /* mysecodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysecodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3943931520E0F29A00F5E4A1 /* mysecodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mysecodUITests.m; sourceTree = "<group>"; };
+		3943931720E0F29A00F5E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394392EB20E0F29900F5E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930320E0F29A00F5E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930E20E0F29A00F5E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394392E520E0F29800F5E4A1 = {
+			isa = PBXGroup;
+			children = (
+				394392F020E0F29900F5E4A1 /* mysecod */,
+				3943930920E0F29A00F5E4A1 /* mysecodTests */,
+				3943931420E0F29A00F5E4A1 /* mysecodUITests */,
+				394392EF20E0F29900F5E4A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394392EF20E0F29900F5E4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394392EE20E0F29900F5E4A1 /* mysecod.app */,
+				3943930620E0F29A00F5E4A1 /* mysecodTests.xctest */,
+				3943931120E0F29A00F5E4A1 /* mysecodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394392F020E0F29900F5E4A1 /* mysecod */ = {
+			isa = PBXGroup;
+			children = (
+				394392F120E0F29900F5E4A1 /* AppDelegate.h */,
+				394392F220E0F29900F5E4A1 /* AppDelegate.m */,
+				394392F420E0F29900F5E4A1 /* ViewController.h */,
+				394392F520E0F29900F5E4A1 /* ViewController.m */,
+				394392F720E0F29900F5E4A1 /* Main.storyboard */,
+				394392FA20E0F29A00F5E4A1 /* Assets.xcassets */,
+				394392FC20E0F29A00F5E4A1 /* LaunchScreen.storyboard */,
+				394392FF20E0F29A00F5E4A1 /* Info.plist */,
+				3943930020E0F29A00F5E4A1 /* main.m */,
+			);
+			path = mysecod;
+			sourceTree = "<group>";
+		};
+		3943930920E0F29A00F5E4A1 /* mysecodTests */ = {
+			isa = PBXGroup;
+			children = (
+				3943930A20E0F29A00F5E4A1 /* mysecodTests.m */,
+				3943930C20E0F29A00F5E4A1 /* Info.plist */,
+			);
+			path = mysecodTests;
+			sourceTree = "<group>";
+		};
+		3943931420E0F29A00F5E4A1 /* mysecodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3943931520E0F29A00F5E4A1 /* mysecodUITests.m */,
+				3943931720E0F29A00F5E4A1 /* Info.plist */,
+			);
+			path = mysecodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394392ED20E0F29900F5E4A1 /* mysecod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3943931A20E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecod" */;
+			buildPhases = (
+				394392EA20E0F29900F5E4A1 /* Sources */,
+				394392EB20E0F29900F5E4A1 /* Frameworks */,
+				394392EC20E0F29900F5E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mysecod;
+			productName = mysecod;
+			productReference = 394392EE20E0F29900F5E4A1 /* mysecod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3943930520E0F29A00F5E4A1 /* mysecodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3943931D20E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecodTests" */;
+			buildPhases = (
+				3943930220E0F29A00F5E4A1 /* Sources */,
+				3943930320E0F29A00F5E4A1 /* Frameworks */,
+				3943930420E0F29A00F5E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3943930820E0F29A00F5E4A1 /* PBXTargetDependency */,
+			);
+			name = mysecodTests;
+			productName = mysecodTests;
+			productReference = 3943930620E0F29A00F5E4A1 /* mysecodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3943931020E0F29A00F5E4A1 /* mysecodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3943932020E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecodUITests" */;
+			buildPhases = (
+				3943930D20E0F29A00F5E4A1 /* Sources */,
+				3943930E20E0F29A00F5E4A1 /* Frameworks */,
+				3943930F20E0F29A00F5E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3943931320E0F29A00F5E4A1 /* PBXTargetDependency */,
+			);
+			name = mysecodUITests;
+			productName = mysecodUITests;
+			productReference = 3943931120E0F29A00F5E4A1 /* mysecodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394392E620E0F29800F5E4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "曾志鑫";
+				TargetAttributes = {
+					394392ED20E0F29900F5E4A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3943930520E0F29A00F5E4A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 394392ED20E0F29900F5E4A1;
+					};
+					3943931020E0F29A00F5E4A1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 394392ED20E0F29900F5E4A1;
+					};
+				};
+			};
+			buildConfigurationList = 394392E920E0F29800F5E4A1 /* Build configuration list for PBXProject "mysecod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394392E520E0F29800F5E4A1;
+			productRefGroup = 394392EF20E0F29900F5E4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394392ED20E0F29900F5E4A1 /* mysecod */,
+				3943930520E0F29A00F5E4A1 /* mysecodTests */,
+				3943931020E0F29A00F5E4A1 /* mysecodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394392EC20E0F29900F5E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394392FE20E0F29A00F5E4A1 /* LaunchScreen.storyboard in Resources */,
+				394392FB20E0F29A00F5E4A1 /* Assets.xcassets in Resources */,
+				394392F920E0F29900F5E4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930420E0F29A00F5E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930F20E0F29A00F5E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394392EA20E0F29900F5E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394392F620E0F29900F5E4A1 /* ViewController.m in Sources */,
+				3943930120E0F29A00F5E4A1 /* main.m in Sources */,
+				394392F320E0F29900F5E4A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930220E0F29A00F5E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3943930B20E0F29A00F5E4A1 /* mysecodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3943930D20E0F29A00F5E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3943931620E0F29A00F5E4A1 /* mysecodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3943930820E0F29A00F5E4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394392ED20E0F29900F5E4A1 /* mysecod */;
+			targetProxy = 3943930720E0F29A00F5E4A1 /* PBXContainerItemProxy */;
+		};
+		3943931320E0F29A00F5E4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394392ED20E0F29900F5E4A1 /* mysecod */;
+			targetProxy = 3943931220E0F29A00F5E4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		394392F720E0F29900F5E4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394392F820E0F29900F5E4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		394392FC20E0F29A00F5E4A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394392FD20E0F29A00F5E4A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3943931820E0F29A00F5E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3943931920E0F29A00F5E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3943931B20E0F29A00F5E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3943931C20E0F29A00F5E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3943931E20E0F29A00F5E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mysecod.app/mysecod";
+			};
+			name = Debug;
+		};
+		3943931F20E0F29A00F5E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mysecod.app/mysecod";
+			};
+			name = Release;
+		};
+		3943932120E0F29A00F5E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mysecod;
+			};
+			name = Debug;
+		};
+		3943932220E0F29A00F5E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = mysecodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stkj.mysecodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mysecod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394392E920E0F29800F5E4A1 /* Build configuration list for PBXProject "mysecod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3943931820E0F29A00F5E4A1 /* Debug */,
+				3943931920E0F29A00F5E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3943931A20E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3943931B20E0F29A00F5E4A1 /* Debug */,
+				3943931C20E0F29A00F5E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3943931D20E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3943931E20E0F29A00F5E4A1 /* Debug */,
+				3943931F20E0F29A00F5E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3943932020E0F29A00F5E4A1 /* Build configuration list for PBXNativeTarget "mysecodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3943932120E0F29A00F5E4A1 /* Debug */,
+				3943932220E0F29A00F5E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394392E620E0F29800F5E4A1 /* Project object */;
+}
